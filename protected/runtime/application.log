@@ -1,0 +1,894 @@
+2014/01/16 12:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php:483
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(270): CController->missingAction('gii')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('gii')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/gii
+---
+2014/01/16 12:38:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/ahc03/intellectus-project.ru/seo/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii
+---
+2014/01/16 12:39:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/ahc03/intellectus-project.ru/seo/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii
+---
+2014/01/16 12:39:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/ahc03/intellectus-project.ru/seo/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii
+---
+2014/01/16 12:39:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/ahc03/intellectus-project.ru/seo/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii
+---
+2014/01/16 12:40:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/ahc03/intellectus-project.ru/seo/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii/default/login
+---
+2014/01/16 13:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userinfo/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('userinfo/index')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/userinfo/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/user/index
+---
+2014/01/16 13:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projecturl/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projecturl/inde...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projecturl/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/16 13:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ulrcheckpositive/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('ulrcheckpositiv...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ulrcheckpositive/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projecturl/index
+---
+2014/01/16 13:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projecturl/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projecturl/inde...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projecturl/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/ulrcheckpositive/index
+---
+2014/01/16 13:18:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userinfo/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('userinfo/index')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/userinfo/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/16 13:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userinfo/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('userinfo/index')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/userinfo/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/user/index
+---
+2014/01/16 13:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userinfo/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('userinfo/index')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/userinfo/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/user/index
+---
+2014/01/16 13:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "projecturl/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projecturl/inde...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/projecturl/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/16 13:19:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ulrcheckpositive/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('ulrcheckpositiv...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ulrcheckpositive/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projecturl/index
+---
+2014/01/16 13:19:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ulrCheckPositive/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('ulrCheckPositiv...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ulrCheckPositive/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/index
+---
+2014/01/16 13:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ulrCheckPositive/index".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('ulrCheckPositiv...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ulrCheckPositive/index
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/ulrCheckPositive/index
+---
+2014/01/16 13:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gi".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('gi')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/gi
+---
+2014/01/16 14:05:27 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.pass" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(93): CComponent->__set('pass', 'd41d8cd98f00b20...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#7 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 14:05:38 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.pass" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(93): CComponent->__set('pass', 'd41d8cd98f00b20...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#7 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 14:06:46 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.pass" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(93): CComponent->__set('pass', '41890cd2ac71e06...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#7 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 14:28:53 [error] [exception.CDbException] exception 'CDbException' with message 'Table "o_user" does not have a column named "username".' in /home/ahc03/intellectus-project.ru/seo/framework/db/schema/CDbCommandBuilder.php:694
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(1518): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /home/ahc03/intellectus-project.ru/seo/protected/components/UserIdentity.php(7): CActiveRecord->findByAttributes(Array)
+#2 /home/ahc03/intellectus-project.ru/seo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ahc03/intellectus-project.ru/seo/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 14:29:09 [error] [exception.CException] exception 'CException' with message 'Property "User.password" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('password')
+#1 /home/ahc03/intellectus-project.ru/seo/protected/components/UserIdentity.php(10): CActiveRecord->__get('password')
+#2 /home/ahc03/intellectus-project.ru/seo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ahc03/intellectus-project.ru/seo/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 14:30:54 [error] [exception.CException] exception 'CException' with message 'Property "User.title" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('title')
+#1 /home/ahc03/intellectus-project.ru/seo/protected/components/UserIdentity.php(15): CActiveRecord->__get('title')
+#2 /home/ahc03/intellectus-project.ru/seo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /home/ahc03/intellectus-project.ru/seo/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /home/ahc03/intellectus-project.ru/seo/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/site/login
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/site/login
+---
+2014/01/16 16:13:09 [error] [exception.CException] exception 'CException' with message 'Property "ProjectUrl." is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/helpers/CHtml.php(2518): CActiveRecord->__get('')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/helpers/CHtml.php(1802): CHtml::resolveValue(Object(ProjectUrl), Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/widgets/CActiveForm.php(847): CHtml::activeDropDownList(Object(ProjectUrl), Array, NULL, Array)
+#4 /home/ahc03/intellectus-project.ru/seo/protected/views/projectUrl/_form.php(24): CActiveForm->dropDownList(Object(ProjectUrl), Array)
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(126): require('/home/ahc03/int...')
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ahc03/int...', Array, true)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(869): CBaseController->renderFile('/home/ahc03/int...', Array, true)
+#8 /home/ahc03/intellectus-project.ru/seo/protected/views/projectUrl/create.php(14): CController->renderPartial('_form', Array)
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(126): require('/home/ahc03/int...')
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ahc03/int...', Array, true)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(869): CBaseController->renderFile('/home/ahc03/int...', Array, true)
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#13 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectUrlController.php(79): CController->render('create', Array)
+#14 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectUrlController->actionCreate()
+#15 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/crea...')
+#25 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/projectUrl/create
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/index
+---
+2014/01/24 10:14:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/proj...')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/projectUrl/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/create
+---
+2014/01/24 10:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "projectChoose".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php:483
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(270): CController->missingAction('projectChoose')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/proj...')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/projectUrl/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/projectChoose
+---
+2014/01/24 10:24:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/projectChoose
+---
+2014/01/24 10:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/projectChoose
+---
+2014/01/24 10:26:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/Project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/ProjectChoose
+---
+2014/01/24 10:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('Project/Project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/Project/ProjectChoose
+---
+2014/01/24 10:27:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('Project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/Project/projectChoose
+---
+2014/01/24 10:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectchoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('Project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/Project/projectchoose
+---
+2014/01/24 10:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/Project/projectchoose
+---
+2014/01/24 10:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/Project/projectchoose
+---
+2014/01/24 10:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/Project/projectchoose
+---
+2014/01/24 10:29:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/Project/projectchoose
+---
+2014/01/24 10:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/Project/projectchoose
+---
+2014/01/24 10:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/Project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/ProjectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/projectChoose
+---
+2014/01/24 10:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/Project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/ProjectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/ProjectChoose
+---
+2014/01/24 10:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/Project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/ProjectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/ProjectChoose
+---
+2014/01/24 10:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php:173
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(151): ProjectController->loadModel(NULL)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/project/projectChoose
+---
+2014/01/24 10:34:15 [error] [exception.CException] exception 'CException' with message 'ProjectController cannot find the requested view "projectChoose".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php:878
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(782): CController->renderPartial('projectChoose', NULL, true)
+#1 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(156): CController->render('projectChoose')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#13 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/project/projectChoose
+---
+2014/01/24 10:45:04 [error] [exception.CException] exception 'CException' with message 'Property "Project.project_id" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('project_id')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('project_id')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/helpers/CHtml.php(1802): CHtml::resolveValue(Object(Project), 'project_id')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/widgets/CActiveForm.php(847): CHtml::activeDropDownList(Object(Project), 'project_id', Array, Array)
+#4 /home/ahc03/intellectus-project.ru/seo/protected/views/project/ProjectChoose.php(22): CActiveForm->dropDownList(Object(Project), 'project_id', Array)
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(126): require('/home/ahc03/int...')
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ahc03/int...', Array, true)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(869): CBaseController->renderFile('/home/ahc03/int...', Array, true)
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(782): CController->renderPartial('ProjectChoose', Array, true)
+#9 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(159): CController->render('ProjectChoose', Array)
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#20 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#21 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php/project/projectChoose
+---
+2014/01/24 10:46:35 [error] [exception.CException] exception 'CException' with message 'Property "Project.project_id" is not defined.' in /home/ahc03/intellectus-project.ru/seo/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(145): CComponent->__get('project_id')
+#1 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectController.php(155): CActiveRecord->__get('project_id')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectController->actionProjectChoose()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('projectChoose')
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/project...')
+#13 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/project/projectChoose
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/projectChoose
+---
+2014/01/24 11:31:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('ProjectChooseCo...')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/Project...')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/ProjectChooseCompare
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/UrlCheck?project_id=1
+---
+2014/01/24 11:32:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select id, url from o_project_url where user_id = 5 and project_id=.
+in /home/ahc03/intellectus-project.ru/seo/protected/models/ProjectUrl.php (99)
+in /home/ahc03/intellectus-project.ru/seo/protected/views/projectUrl/Compare.php (22)
+in /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectUrlController.php (188)
+2014/01/24 11:32:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select id, url from o_project_url where user_id = 5 and project_id=' in /home/ahc03/intellectus-project.ru/seo/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ahc03/intellectus-project.ru/seo/framework/db/ar/CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 /home/ahc03/intellectus-project.ru/seo/protected/models/ProjectUrl.php(99): CActiveRecord->findAllBySql('select id, url ...')
+#3 /home/ahc03/intellectus-project.ru/seo/protected/views/projectUrl/Compare.php(22): ProjectUrl->ProjectUrls(NULL)
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(126): require('/home/ahc03/int...')
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ahc03/int...', Array, true)
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(869): CBaseController->renderFile('/home/ahc03/int...', Array, true)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(782): CController->renderPartial('Compare', Array, true)
+#8 /home/ahc03/intellectus-project.ru/seo/protected/controllers/ProjectUrlController.php(188): CController->render('Compare', Array)
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/actions/CInlineAction.php(49): ProjectUrlController->actionCompare()
+#10 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('Compare')
+#19 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/Comp...')
+#20 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/projectUrl/Compare?project_id=1
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/ProjectChooseCompare
+---
+2014/01/24 11:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DateCompare".' in /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php:483
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(270): CController->missingAction('DateCompare')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('DateCompare')
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/Date...')
+#3 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/projectUrl/DateCompare/
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/Compare?project_id=1
+---
+2014/01/24 11:50:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php:336
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('DateCompare')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/Date...')
+#10 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/projectUrl/DateCompare/
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/Compare?project_id=1
+---
+2014/01/28 17:22:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/29 12:01:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/29 12:02:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/index
+---
+2014/01/29 12:02:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/create
+---
+2014/01/29 12:02:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/project/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/project/2
+---
+2014/01/29 12:29:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/admi...')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/projectUrl/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/index
+---
+2014/01/29 12:44:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/ahc03/intellectus-project.ru/seo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/ahc03/intellectus-project.ru/seo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/ahc03/intellectus-project.ru/seo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/ahc03/intellectus-project.ru/seo/framework/web/CWebApplication.php(141): CWebApplication->runController('projectUrl/admi...')
+#9 /home/ahc03/intellectus-project.ru/seo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ahc03/intellectus-project.ru/seo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/projectUrl/admin
+HTTP_REFERER=http://seo.intellectus-project.ru/index.php/projectUrl/index
+---
